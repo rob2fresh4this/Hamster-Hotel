@@ -1,0 +1,34 @@
+.navbar1 {
+  background-color: #080424;
+  color: white;
+  display: flex;
+  align-items: flex-end; /* Align items to the bottom */
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 2%;
+}
+
+.nav-item1 {
+  display: flex;
+}
+
+.award {
+  width: 100%;
+}
+
+.container2 {
+  background-image: url(./hotelMarkupAssets/bg2.jpg);
+  display: flex;
+}
+
+.container3 {
+  display: flex;
+}
+
+.hide {
+  list-style-type: none;
+  color: white;
+}
+
+
