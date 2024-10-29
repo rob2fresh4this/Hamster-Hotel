@@ -37,6 +37,7 @@
 
 .award {
   width: 100%;
+  height: 100%;
 }
 
 .container1 {
@@ -64,7 +65,17 @@
 }
 
 .container2 {
+  color: white;
   background-image: url(./hotelMarkupAssets/bg2.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container3{
+  gap: 1%;
+  padding-bottom: 10px;
   display: flex;
 }
 
@@ -72,16 +83,32 @@
   font-size: small;
 }
 
-.container3 {
+.container4{
   display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
 }
+
+
 
 .hide {
   list-style-type: none;
   color: white;
 }
 
-.container5 {
+.gaps{
+  gap: 1%;
+  padding-bottom: 100px;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.container6 {
   background-image: url(./hotelMarkupAssets/bg.jpg);
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
