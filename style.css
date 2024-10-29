@@ -9,17 +9,67 @@
   gap: 2%;
 }
 
+.footer1 {
+  font-size: x-small;
+  background-color: #080424;
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .nav-item1 {
   display: flex;
+}
+
+.push-up {
+  padding-bottom: 12px;
+}
+
+.nav-item1-button {
+  background-color: #080424;
+  color: white;
+  border: 2px solid white;
 }
 
 .award {
   width: 100%;
 }
 
+.container1 {
+  background-image: url(./hotelMarkupAssets/header.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-box1 {
+  width: 50%;
+  height: 175px;
+  background-color: #080424;
+  opacity: 0.8;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
 .container2 {
   background-image: url(./hotelMarkupAssets/bg2.jpg);
   display: flex;
+}
+
+.text-box2 {
+  font-size: small;
 }
 
 .container3 {
@@ -31,4 +81,7 @@
   color: white;
 }
 
-
+.container5 {
+  background-image: url(./hotelMarkupAssets/bg.jpg);
+  color: white;
+}
