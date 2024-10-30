@@ -136,4 +136,14 @@
   gap: 1%;
   padding-top: 3%;
   padding-bottom: 4%;
+  align-items: center;
+}
+
+.container9 button{
+  width: 100px;
+  align-self: center;
+  margin-top: 11px;
+  color: white;
+  border: none;
+  height: 23px;
 }
