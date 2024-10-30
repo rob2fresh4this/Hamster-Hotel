@@ -139,7 +139,7 @@
   align-items: center;
 }
 
-.container9 button{
+.container9 button {
   width: 100px;
   align-self: center;
   margin-top: 11px;
@@ -147,3 +147,49 @@
   border: none;
   height: 23px;
 }
+
+.responsive-text {
+  display: none;
+}
+
+.card-size {
+  width: 18rem;
+}
+
+/* media screen */
+
+@media screen and (min-width: 925px) and (max-width: 1366px) {
+  
+}
+
+@media screen and (max-width: 924px) {
+  .text-box1 {
+    font-size: x-small;
+  }
+
+  .text-box2 {
+    font-size: small;
+  }
+
+  .card-size {
+    width: 16rem;
+  }
+
+  .responsive-text {
+    display: block;
+  }
+
+  .container6 {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .container9 {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+/* media screen */
