@@ -1,14 +1,14 @@
 ## Project Details
 
-- **Your Name**:  
-- **Date Revised**:  
-- **Exercise or Lab Name**:  
+- **Your Name**:  Robert Grijalva
+- **Date Revised**:  11/1/24
+- **Exercise or Lab Name**:  Hamster Hotel 
 - **Description**:  
-  - *[Date]*: [Brief description of work done on this date]
-  - *[Date]*: [Brief description of work done on this date]
-  - *[Date]*: [Brief description of work done on this date]
-  - *[Date]*: [Brief description of work done on this date]
-  - *[Date]*: [Brief description of work done on this date]
+  - *[10/28/24]*: [Built skeleton of the site]
+  - *[10/29/24]*: [Working on the details of the site]
+  - *[10/30/24]*: [Finished up the details of the site]
+  - *[10/31/24]*: [Worked on the responsiveness on tablet and finished. Worked on the responsiveness on phone ]
+  - *[11/1/24]*: [Worked on the responsiveness on phone and finished]
  
 **Peer Reviewer**: 
 
