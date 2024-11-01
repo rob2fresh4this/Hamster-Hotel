@@ -1,3 +1,9 @@
+@font-face {
+  font-family: Dosis-Regular;
+  src: url(../hotelMarkupAssets/Dosis/static/Dosis-Regular.ttf);
+}
+
+
 .navbar1 {
   background-color: #080424;
   color: white;
@@ -6,7 +12,7 @@
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
-  gap: 2%;
+  gap: 2%; 
 }
 
 .footer1 {
@@ -23,6 +29,7 @@
 
 .nav-item1 {
   display: flex;
+  font-family: 'Dosis-Regular', sans-serif !important;
 }
 
 .push-up {
@@ -67,6 +74,10 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+
+.text-box1 h3 {
+  font-family: 'Dosis-Regular', sans-serif !important;
 }
 
 .container2 {
@@ -200,7 +211,8 @@
 /* ipad */
 
 /* phone */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
+
   .navbar1 {
     flex-direction: column;
     align-items: center;
@@ -221,6 +233,7 @@
   img {
     max-width: 80%;
     height: auto;
+    margin: auto;
   }
 
   .container1 {
