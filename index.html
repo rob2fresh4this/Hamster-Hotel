@@ -7,7 +7,7 @@
   <title>Hamster Hotel</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="./styles/style.css" />
 </head>
 
 <body>
@@ -47,11 +47,11 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-xl-2 col-lg-1"></div>
-        <div class="col">
-          <img class="img-fluid" src="./hotelMarkupAssets/hamsterhomejpg.jpg" alt="hamsterhome" />
+        <div class="col-xl-2 col-lg-1 d-none d-md-block"></div>
+        <div class="col d-flex justify-content-center">
+          <img class="img-fluid " src="./hotelMarkupAssets/hamsterhomejpg.jpg" alt="hamsterhome" />
         </div>
-        <div class="col-5 text-box2">
+        <div class="col-lg-5 col-md-12 text-box2">
           <h3>Welcome to a hamster's paradise</h3>
           <p>
             Nestled in the heart of Cavia California, La Petite Maison is a
@@ -65,19 +65,19 @@
             Discover the satisfaction of indulging in our quality rooms, and
             thank you for choosing La Petite Maison.
           </p>
-          <div class="row">
-            <div class="col">
-              <img class="award" src="./hotelMarkupAssets/awardfinest.png" alt="" />
+          <div class="row" id="responsive-flex">
+            <div class="col-3">
+              <img class="award" src="./hotelMarkupAssets/awardfinest.png" alt="award" />
             </div>
-            <div class="col">
-              <img class="award" src="./hotelMarkupAssets/awardsatisfaction.png" alt="" />
+            <div class="col-3">
+              <img class="award" src="./hotelMarkupAssets/awardsatisfaction.png" alt="award" />
             </div>
-            <div class="col">
-              <img class="award" src="./hotelMarkupAssets/awardgenuine.png" alt="" />
+            <div class="col-3">
+              <img class="award" src="./hotelMarkupAssets/awardgenuine.png" alt="award" />
             </div>
           </div>
         </div>
-        <div class="col-xl-2 col-lg-1"></div>
+        <div class="col-xl-2 col-lg-1 d-none d-md-block"></div>
       </div>
     </div>
 
@@ -92,7 +92,7 @@
       <div class="container3">
         <div class="container-item2">
           <div class="card rounded-0 card-size">
-            <img src="./hotelMarkupAssets/room1.jpg" class="card-img-top" alt="..." />
+            <img src="./hotelMarkupAssets/room1.jpg" class="card-img-top" alt="room1" />
             <div class="card-body">
               <h5 class="card-title">Queen Room</h5>
               <b class="card-text">850 SQ FT room with city view</b>
@@ -115,7 +115,7 @@
         </div>
         <div class="container-item2">
           <div class="card rounded-0 card-size">
-            <img src="./hotelMarkupAssets/room2.jpg" class="card-img-top" alt="..." />
+            <img src="./hotelMarkupAssets/room2.jpg" class="card-img-top" alt="room2" />
             <div class="card-body">
               <h5 class="card-title">King Room</h5>
               <b class="card-text">950 SQ FT room with beach view</b>
@@ -138,7 +138,7 @@
         </div>
         <div class="container-item2">
           <div class="card rounded-0 card-size">
-            <img src="./hotelMarkupAssets/room3.jpg" class="card-img-top" alt="..." />
+            <img src="./hotelMarkupAssets/room3.jpg" class="card-img-top" alt="room3" />
             <div class="card-body">
               <h5 class="card-title">Beach Side Suite</h5>
               <b class="card-text">1500 SQ FT Suite with beach view</b>
@@ -169,11 +169,11 @@
         <div class="row">
           <div class="col-xl-2 col-lg-1"></div>
           <div class="col">
-            <img class="award" src="./hotelMarkupAssets/hamsterwedding.jpg" alt="" />
+            <img class="award d-flex justify-content-center" src="./hotelMarkupAssets/hamsterwedding.jpg" alt="wedding" />
           </div>
           <div class="col">
             <h2>Beach Wedding Package</h2>
-            <p>Starting US $1,500.00</p>
+            <p class="text-primary">Starting US $1,500.00</p>
             <p>
               Feel the warmth of the beach as the flames in your hearts ignite
               during our romantic beachside wedding. All wedding packages
@@ -184,11 +184,11 @@
           </div>
           <div class="col-xl-2 col-lg-1"></div>
         </div>
-        <div class="row">
+        <div class="row reserve-col">
           <div class="col-xl-2 col-lg-1"></div>
           <div class="col">
             <h2>Full Bloom Package</h2>
-            <p>Starting US $1,000.00</p>
+            <p class="text-primary">Starting US $1,000.00</p>
             <p>
               Enjoy the shade of our cherry trees as you join us during our
               springtime celebration. We invite you to our orchards for cherry,
@@ -198,18 +198,18 @@
             </p>
           </div>
           <div class="col">
-            <img class="award" src="./hotelMarkupAssets/hamsterspring.jpg" alt="" />
+            <img class="award d-flex justify-content-center" src="./hotelMarkupAssets/hamsterspring.jpg" alt="hamsterspring" />
           </div>
           <div class="col-xl-2 col-lg-1"></div>
         </div>
         <div class="row">
           <div class="col-xl-2 col-lg-1"></div>
           <div class="col">
-            <img class="award" src="./hotelMarkupAssets/hamstercheese.jpg" alt="" />
+            <img class="award d-flex justify-content-center" src="./hotelMarkupAssets/hamstercheese.jpg" alt="hamstercheese" />
           </div>
           <div class="col">
             <h2>Cheese and Seed Tour Package</h2>
-            <p>Starting US $1,200.00</p>
+            <p class="text-primary">Starting US $1,200.00</p>
             <p>
               Immerse yourself in the flavors of Cavia with our Cheese and Seed
               tour. We consulted with connoisseurs from around the globe to
