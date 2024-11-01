@@ -10,7 +10,16 @@
   - *[10/31/24]*: [Worked on the responsiveness on tablet and finished. Worked on the responsiveness on phone ]
   - *[11/1/24]*: [Worked on the responsiveness on phone and finished]
  
-**Peer Reviewer**: 
+**Peer Reviewer**: Alexander Soria
+
+Your site looks good in desktop form. The font is off. If you click on the text in the prototype, take a look at Styles on the sidebar, and you'll find what font to use. 
+
+The responsiveness on your site is alright at best. 
+For mobile, the images in your cards are off-center, and navbar looks strange as well. The way you did the responsiveness for the Reservations section is good, but I'd recommend simply streatching the boxes across the page, and then just have the Reserve button on the bottom.
+
+As for the tablet version of your site, your cards seem mis-aligned in your Rooms section, and the responsiveness Reservations is a bit off, too. 
+
+Other than that, you have everything that the prototype requires! However, definitely try to knock out the issues with the responsiveness with your site before you submit.
 
 
 
