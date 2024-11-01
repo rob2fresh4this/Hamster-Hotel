@@ -10,7 +10,7 @@
   - *[Date]*: [Brief description of work done on this date]
   - *[Date]*: [Brief description of work done on this date]
  
-  **Peer Reviewer**: 
+**Peer Reviewer**: 
 
 
 
