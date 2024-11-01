@@ -1,3 +1,19 @@
+## Project Details
+
+- **Your Name**:  
+- **Date Revised**:  
+- **Exercise or Lab Name**:  
+- **Description**:  
+  - *[Date]*: [Brief description of work done on this date]
+  - *[Date]*: [Brief description of work done on this date]
+  - *[Date]*: [Brief description of work done on this date]
+  - *[Date]*: [Brief description of work done on this date]
+  - *[Date]*: [Brief description of work done on this date]
+ 
+- **Peer Reviewer**: 
+
+
+
 # Project Instructions
 
 In this project, you will take the following mockup and make it into a fully functioning website using Bootstrap.
